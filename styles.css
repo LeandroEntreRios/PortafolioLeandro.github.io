@@ -1,0 +1,236 @@
+.contenedor {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(90deg, white, rgb(218, 209, 209), rgb(200, 211, 211));
+}
+.contenedor:hover{
+    background: url(./the-hacker-matrix.gif);
+}
+
+.banner {
+    font-size: 30px;
+    margin: 4px;
+    padding: 2px;
+    text-align: end;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.img {
+    border-radius: 50%;
+    width: 300px;
+    height: 350px;
+}
+
+.red {
+    margin: 4px;
+    padding: 2px;
+    text-align: center;
+}
+
+.tab {
+    text-align: center;
+}
+
+.th,
+td {
+    border: 2px solid black;
+    background-color: aqua;
+}
+
+.sobremi {
+    font-family: 'The Nautigal', cursive;
+    font-size: 36px;
+    margin: 2px;
+    color: rgb(73, 73, 233);
+}
+.sobremi:hover{
+    color: rgb(231, 247, 6);
+}
+
+.hobbiesySoftskill {
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 2px;
+    text-align: center;
+}
+
+.hobbiesySoftskill_titulo {
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+}
+.hobbiesySoftskill:hover{
+    color: cyan;
+}
+
+.hobbiesySoftskill_img {
+    border-radius: 20%;
+    background: white;
+    width: 200px;
+    height: 200px;
+    margin: 12px;
+}
+
+h2 {
+    color: darkmagenta;
+}
+
+.formacion {
+    background: linear-gradient(90deg, white, rgb(218, 209, 209), rgb(200, 211, 211));
+    display: flex;
+    margin: 1rem;
+}
+.formacion_texto {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+    color: royalblue
+}
+
+#formacion__img {
+    border-radius: 30%;
+}
+
+.proyec_parrafo {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    text-align: center;
+}
+.proyec_parrafo:hover{
+    color: skyblue;
+}
+.proyec {
+    display: flex;
+    margin: 3px;
+    align-content: flex-end;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+}
+
+.formulario {
+    text-align: center;
+}
+.formulario:hover{
+    color: yellow;
+}
+.formulario_titulo {
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    color: crimson;
+}
+.formulario_titulo:hover{
+    color: #ff002f;
+}
+.formulario_parrafo {
+    font-size: 20px;
+    text-align: center;
+    color: crimson;
+    display: flex;
+}
+.formulario_parrafo:hover{
+    color: #ff002f;
+    font-size: 30px;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    border-radius: 12px;
+    color: brown;
+    font-family: cursive;
+    display: inline-block;
+    transition: all;
+}
+
+.btn:hover{
+    background: #318aac;
+    color: #fff !important;
+}
+.pie:hover{
+    color: turquoise;
+    font-size: 25px;
+}
+h5{
+    color: turquoise;
+}
+/*Responsive*/
+@media only screen and (max-width: 700px) {
+    .contenedor {
+        width: 100%;
+        height: auto;
+        background: salmon;
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;
+    }
+    .red{
+        display: inline-block;
+    }
+    .img {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+    }
+    .banner {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .sobreMi {
+        font-size: 30px;
+    }
+  .proyec{
+    width:50px;
+    align-items: flex-start;
+  }
+  .curriculum{
+    text-align: center;
+  }
+  .formulario{
+    align-items: flex-end;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+    .contenedor {
+        width: 100%;
+        height: auto;
+        background: rgb(184, 22, 4);
+        flex-direction: column;
+        text-align: center;
+    }
+    .red{
+        display: inline-block;
+    }
+    .img {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+    }
+    .banner {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .sobreMi {
+        font-size: 30px;
+    }
+  .proyec{
+    width:50px;
+    align-items: flex-start;
+  }
+  .curriculum{
+    text-align: center;
+  }
+  .formulario{
+    align-items: flex-end;
+  }
+}

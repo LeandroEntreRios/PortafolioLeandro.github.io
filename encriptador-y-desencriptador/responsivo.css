@@ -1,0 +1,49 @@
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+    body{
+        background: rgba(208, 255, 1, 0.788);
+    }
+    .encapsular {
+       min-width: 360px;
+       max-width: 768px;
+    }
+    .vector{
+        width: 100%;
+        height: 50px;
+        padding: 30px;
+    }
+    .titulo{
+        font-size: 80px;
+        font-family: 'Times New Roman', Times, serif;
+        color: blue;
+        text-align: center;
+    }
+    .area{
+        top: 400px;
+        width: 700px;
+        text-align: center;
+    }
+    .icono{
+        font-size: 35px;
+        text-align: center;
+    }
+    .btn-rojo{
+        width: 700px;
+        top: 1000px;
+    }
+    .btn-azul{
+        width: 700px;
+        top: 1200px;
+        left: 230px;
+    }
+    .enlaces{
+        top: 1700px;
+        text-align: center;
+    }
+    .pie{
+        top: 1900px;
+        left: 300px;
+        font-size: 80px;
+        text-align: center;
+        color: red;
+    }
+}

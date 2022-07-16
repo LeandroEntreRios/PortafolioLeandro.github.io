@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.ico" type="imgen/x-icon">
+    <link rel="stelysheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
+    <title>Portafolio Leandro</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="sobreMi">
+            <section class="banner">
+                <a href="#sobremi" id="mi">Sobre Mi</a>
+                <a href="#preoyecto" id="proyec">Proyecto</a>
+                <a href="#formulario_completo" id="contacto">Contacto</a>
+                <a href="#curriculum_vitae" id="cv">CV</a>
+            </section>
+            <img src="IMG_20220429_131847.jpg" alt="fotodeperfil" class="img">
+            <section class="red">
+                <a href="facebook" id="btnf"><img src="facebook.png" alt="facebook"></a>
+                <a href="linkdin" id="btnl"><img src="linkedin.png" alt="linkdin"></a>
+                <a href="github" id="btng"><img src="github.png" alt="github"></a>
+            </section>
+
+            <section class="tab">
+                <table>
+                    <th>
+                    <td>Datos Personales</td>
+                    </th>
+                    <tr>
+                        <td>Leandro Exequiel Camacho</td>
+                    </tr>
+                    <tr>
+                        <td>30 años</td>
+                    </tr>
+                    <tr>
+                        <td>Argentino</td>
+                    </tr>
+                    <tr>
+                        <td>Leandro Exequiel Camacho aspirante a desarrollador<br>
+                            full stack, a lo largo de este año logre completar una<br>
+                            serie de cursos para lograr dar unos pasos 
+                            mas serca a mi objetivo.</td>
+                    </tr>
+
+                </table>
+            </section>
+        </div>
+        <div class="sobremi" id="sobremi">
+            <p>Me llamo: Leandro Exequiel Camacho.</p>
+            <p>Soy una persona muy motivada con fuerte orientacion a la mejora continua en los ambitos de la vida.
+            <p>empeze a estudiar programacion en Marzo de este año.</p>
+            <p> Actualmente estoy participando en Oracle One en Alura Latam,
+                en EducacionIT y
+                Argentina Programa / SeProgramar</p> Logro adaptarme a la tecnologias nuevas.
+            </p>
+        </div>
+
+        <div class="hobbiesySoftskill">
+            <p class="hobbiesySoftskill_titulo">Hobbies</p>
+            🎸tocar el bajo y guitarra - 🎧escuchar musica - ✍dibujar - 🎨pintar -
+            <br>
+            <br>
+            🎮 jugar a los video juegos - tallado en madera - 📺 series - 💻peliculas - 🥘cocinar 
+            <br>
+            <br>
+            <p class="hobbiesySoftskill_titulo">Skill</p>
+               <img class="hobbiesySoftskill_img" src="./skill/html.png" alt="html">
+               <img class="hobbiesySoftskill_img" src="./skill/css.png" alt="css">
+               <img class="hobbiesySoftskill_img" src="./skill/JavaScript-logo.png" alt="javascript"><h2 id="tres"></h2>
+               <img class="hobbiesySoftskill_img" src="./skill/Node.js_logo.svg.png" alt="nodejs"><h2 id="cuatro"></h2>
+                <br>
+                <h2>Comunicacion - Trabajo en equipo - Creatividad y Motivacion</h2>
+        </div>
+        <section class="formacion">
+           <div>
+               <h2 class="formacion_texto">Formacion</h2>
+               <img src="./formacion/alura copia.jpg" alt="aluralatam" id="formacion__img">
+               <img src="./formacion/cisco-2x.png" alt="cisco" id="formacion__img">
+               <img src="./formacion/arg-programa.png" alt="argprograma" id="formacion__img">
+               <img src="./formacion/it.jpg" alt="eduit" id="formacion__img">
+           </div>
+        </section>
+
+        <div class="proyec" id="preoyecto">
+            <section class="barberia">
+                <p class="proyec_parrafo" >Finalizacion de proyecto de una pagina web de una barberia</p>
+                <a href="barberia/index.html"><img src="barberia.jpg" alt="barberia"></a>
+            </section>
+    
+            <section class="codigo">
+                <p class="proyec_parrafo">Un encriptador y desencriptador de codigo, para que tus mensajes no los pueda desifrar 
+                    quien no debe.
+                </p>
+                <a href="encriptador-y-desencriptador/index.html"><img src="codigo.jpg" alt="desifrar mensaje"></a>
+            </section>
+    
+            <section class="juego">
+                <p class="proyec_parrafo">Clasico juego de adivinanza echo con lenguaje html,css y js</p>
+                <a href="juego_del_ahorcado/Inicio.html"><img src="juego.jpg" alt="juego de palabras"></a>
+            </section>
+        </div>
+        
+
+        <div class="curriculum" id="curriculum_vitae">
+            <button onclick="abrirpdf()" dowloader="descargar" type="button" id="btn" class="btn"> Descargar cv </button>
+        </div>
+
+        <form class="formulario" id="formulario_completo" autocomplete="off" method="post" action="">
+            <h3 class="formulario_titulo">¿Quieres contactarme?</h3>
+             <p class="formulario_parrafo">Completa los campos del siguiente 
+                formulario y me pondre en contacto
+            contigo lo antes posible</p></h3>
+            <label for="Nombre"> Nombre </label>
+            <input type="text" id="name" maxlength="50" required placeholder="Nombre">
+
+            <label for="email"> Email </label>
+            <input type="email" id="email" required placeholder="Email@****">
+
+            <label for="Asunto"> Asunto </label>
+            <input type="text" id="asunto" maxlength="50" required placeholder="Asunto">
+
+            <label for="Mensaje"> Mensaje</label>
+            <input type="text" id="mensaje" name="user_text" maxlength="300" required placeholder="Mensaje a enviar">
+
+            <label for="enviar"><input type="submit" name="action" id="enviar"><input type="reset" value="Cancelar"></label>
+        </form>
+        <footer class="pie">
+            <marquee>Creado por Leandro Exequiel Camacho  <a href=""><h5>leandroexequielcamacho@gmail.com</h5></a></marquee>
+        </footer>
+
+        <script src="validar.js" ></script>
+    </div>
+</body>
+
+</html>

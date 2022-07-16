@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Primer Challenger</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsivo.css">
+</head>
+
+<body>
+    <section class="encapsular">
+        <header>
+            <div>
+                <h1 class="vector"><img src="Vectorvector.png" alt="vector"></h1>
+            </div>
+        </header>
+
+        <h2 class="titulo">Codigo Secreto</h2>
+
+        <main class="main">
+            <section class="izquierdo">
+                <form action="">
+                    <div class="icono"><label for="input-texto">❗ Solo letras minúsculas, sin acento</label></div>
+                    <input class="area" type="text" name="input-texto" id="input-texto"
+                        placeholder="Ingrese el texto aqui">
+                    <input class="btn-rojo" type="button" value="encriptar" onclick="encriptar()" id="btn-encriptar">
+                    <input class="btn-azul" type="button" value="desencriptar" onclick="desencriptar()"
+                        id="btn-desencriptar">
+                </form>
+            </section>
+
+            <div class="derecho"></div>
+
+            <section class="1">
+                <h3 class="h3" id="textToCopy">Mensaje encriptado</h3>
+                <input class="text-input-salida" type="text" id="msj">
+                <button class="copiar" id="copiar" type="button" name="button" onclick="copy()">
+                    Copiar
+                </button>
+            </section>
+            <div class="primeraCara">
+                <img src="Muñecomuñeco.jpg" id="img" class="muneco" alt="muñeco">
+                <h4 class="h4" id="texto">Ningún mensaje fue encontrado</h4>
+                <h5 class="h5" id="texto1">Ingrese el texto que desees encriptar o desencriptar</h5>
+            </div>
+        </main>
+
+        <footer>® Creado por Leandro Exequiel Camacho</footer>
+        <div class="enlaces">
+            <a class="btnF" href="https://www.facebook.com/leandro.camacho.7374" target="_black"><input type="image" src="facebook.png" style="border: double;" height="80" width="170"/></a>
+            <a class="btnNegro" href="https://github.com/LeandroEntreRios" target="_black"><input type="image" src="github.png" style="border: double;" height="80" width="170"/> </a>
+            <a class="btnCeleste" href="https://www.linkedin.com/in/leandro-exequiel-camacho-7021a1239/" target="_black"><input type="image" src="linkedin.png" style="border: double;" height="80" width="170"/></a>
+        </div>
+        <script src="script.js"></script>
+    </section>
+</body>
+
+</html>

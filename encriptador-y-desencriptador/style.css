@@ -1,0 +1,187 @@
+body {
+    background-color: rgba(167, 163, 163, 0.562);
+}
+
+.encapsular {
+    width: 100%;
+    margin: auto;
+}
+
+.titulo {
+    width: 100%;
+    height: 50px;
+    top: 20px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.vector {
+    width: 100%;
+    height: 48px;
+    padding: 30px;
+}
+
+.icono {
+    width: 340px;
+    height: 67px;
+    left: 220px;
+    top: 690px;
+    position: relative;
+}
+
+.area {
+    width: 577px;
+    height: 30%;
+    left: 240px;
+    top: 168px;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    display: grid;
+    margin: auto;
+    margin-top: 20px;
+    letter-spacing: 0em;
+    animation-duration: 0ms;
+    position: absolute;
+    font-style: normal;
+    font-family: monospace;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    resize: none;
+}
+
+.btn-rojo {
+    width: 340px;
+    height: 67px;
+    position: absolute;
+    left: 240px;
+    top: 885px;
+    border-radius: 15px;
+    box-shadow: 7px 5px 5px darkred;
+    background: red;
+    border: none;
+}
+
+.btn-rojo:hover {
+    background: rgb(236, 51, 51);
+}
+
+.btn-azul {
+    width: 340px;
+    height: 67px;
+    position: absolute;
+    left: 600px;
+    top: 885px;
+    border-radius: 15px;
+    box-shadow: 7px 5px 5px darkblue;
+    background: blue;
+    border: none;
+}
+
+.btn-azul:hover {
+    background: rgb(87, 87, 236);
+}
+
+.derecho {
+    background-color: white;
+    width: 336px;
+    height: 940px;
+    top: 34px;
+    left: 1032px;
+    border-radius: 32px;
+    position: absolute;
+}
+
+.h3 {
+    width: 300px;
+    height: 300px;
+    top: 100px;
+    left: 1099px;
+    font-weight: 800;
+    font-size: 30px;
+    color: black;
+    position: absolute;
+}
+
+.text-input-salida {
+    background-color: white;
+    width: 310px;
+    height: 700px;
+    top: 150px;
+    left: 1040px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    position: absolute;
+    border: none;
+    white-space: pre-line;
+}
+
+.copiar {
+    width: 334px;
+    height: 67px;
+    left: 1032px;
+    top: 885px;
+    border-radius: 15px;
+    background: rgb(88, 88, 88);
+    position: absolute;
+    cursor: pointer;
+    border: none;
+    box-shadow: 7px 5px 5px grey;
+}
+
+.muneco {
+    height: 304px;
+    width: 336px;
+    left: 1032px;
+    top: 283px;
+    position: absolute;
+}
+
+.h4 {
+    height: 304px;
+    width: 336px;
+    left: 1040px;
+    top: 680px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    color: black;
+    position: absolute;
+}
+
+.h5 {
+    height: 304px;
+    width: 336px;
+    left: 1038px;
+    top: 750px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    position: absolute;
+}
+
+footer {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 980px;
+    left: 800px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer:hover {
+    color: lightslategray;
+}
+
+.enlaces {
+    left: 90px;
+    top: 960px;
+    position: absolute;
+}

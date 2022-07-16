@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Challenger2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="favicon.ico" type="imgen/x-icon">       
+        <link rel="stelysheet" href="reset.css">
+        <link rel="stylesheet" href="stilos.css">
+
+    </head>
+    <body>
+        <div class="contenedor">
+            <div class="logo">
+                <img src="leon.png" alt="logo" class="imagen">
+                <marquee class="texto">💀Juego del ahorcado💀</marquee>
+            </div>
+
+            <div class="hombre_colgado">
+                <img src="img/00.png" id="hombre" alt="hombre_colgado">
+            </div>
+
+            <form class="botones">
+                <button id="boton1" type="button" class="boton1" onclick="nuevoJuego()">Nuevo 💀 Juego</button>
+                <button id="boton2" type="button" class="boton2" onclick="nuevaPalabra()">Nueva Palabra</button>
+                <button id="boton3" type="reset" class="boton2" hidden="true" onclick="javascript:window.location.reload();">Abandonar</button>
+            </form>
+    
+            <div id="teclado">
+                <div id="letras"></div>
+            </div>
+    
+            <div id="adivinado">
+                <div id="letra"></div>
+            </div>
+
+        </div>
+        <script src="type.js"></script>
+
+        </div>
+        <footer>
+            <div class="pie">
+                <a class="btn" href="https://www.facebook.com/leandro.camacho.7374" target="_blank"><input type="image" src="facebook.png"></a>
+                <a class="btn1" href="https://github.com/LeandroEntreRios" target="_blank"><input type="image" src="github.png"></a>
+                <a class="btn2" href="https://www.linkedin.com/in/leandro-exequiel-camacho-7021a1239/" target="_blank"><input type="image" src="linkedin.png"></a>
+            </div>
+        </footer>
+
+    </body>
+</html>

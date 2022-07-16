@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+   <meta charset="UFT-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Contacto - Barberia Concordia</title>
+   <link rel="stylesheet" href="reset.css">
+   <link rel="stylesheet" href="style.css">
+   <link rel="icon" href="favicon.ico" type="imgen/x-icon">
+</head>
+
+<body>
+   <header>
+      <div class="caja">
+         <h1><img src="leon.png" id="logo" alt="Logo"></h1>
+         <nav>
+            <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="productos.html">Productos</a></li>
+               <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+         </nav>
+      </div>
+   </header>
+   <main>
+      <form>
+         <label for="nombreyapellido">Nombre y Apellido</label>
+         <input type="text" id="nombreyapellidos" class="input-padron" required placeholder="Nombre y Apellido">
+
+         <label for="correoelectronico">Correo Electronico</label>
+         <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+
+         <label for="telefono">Numero de Telefono</label>
+         <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXX XXX">
+
+         <label for="Mensaje">Mensaje</label>
+         <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
+
+         <fieldset>
+
+            <legend>¿Como le gustaria ser contactado?</legend>
+
+            <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email 📧</label>
+
+
+            <label for="radio-telefono"><input type="radio" name="contacto" value="telefono"
+                  id="radio-telefono">Telefono ☎</label>
+
+
+            <label for="radio-telefono"><input type="radio" name="contacto" value="whatapp" id="radio-whatapp"
+                  checked>Whatapp</label>
+
+         </fieldset>
+
+         <fieldset>
+            <legend>¿En que horario desea ser atendido?</legend>
+            <select>
+               <option>Mañana</option>
+               <option>Tarde</option>
+               <option>Noche</option>
+            </select>
+         </fieldset>
+
+         <label class="checkbox"><input type="checkbox" checked>¿Le gustaria recibir novedades de la barberia
+            Concordia?</label>
+
+
+         <input type="submit" value="Enviar Formulario" class="enviar">
+      </form>
+
+      <table id="tablero">
+         <thead>
+            <th>
+            <td>Dia</td>
+            <td>Horario</td>
+            </th>
+         </thead>
+
+         <tbody>
+            <tr>
+               <th></th>
+               <td>Lunes</td>
+               <td>08hs - 20hs</td>
+            </tr>
+
+            <tr>
+               <td></td>
+               <td>Miercoles</td>
+               <td>08hs - 20hs</td>
+            </tr>
+
+            <tr>
+               <td></td>
+               <td>Viernes</td>
+               <td>08hs - 20hs</td>
+            </tr>
+
+         </tbody>
+
+      </table>
+   </main>
+
+   <footer>
+      <a class="btn" href="https://www.facebook.com/leandro.camacho.7374" target="_blank"><input type="image"
+            src="facebook.png"></a>
+      <a class="btn1" href="https://github.com/LeandroEntreRios" target="_blank"><input type="image"
+            src="github.png"></a>
+      <a class="btn2" href="https://www.linkedin.com/in/leandro-exequiel-camacho-7021a1239/" target="_blank"><input
+            type="image" src="linkedin.png"></a>
+      <p class="copyright">&copy Copyright Leandro Camacho - 2022</p>
+   </footer>
+
+</body>

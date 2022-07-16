@@ -1,0 +1,190 @@
+body {
+    background: linear-gradient(90deg, aqua, lightcyan);
+}
+
+.contenedor {
+    width: 100vw;
+    height: auto;
+    margin: 1px;
+    padding: 1px;
+}
+
+.imagen {
+    border-radius: 50%;
+    width: 80px;
+    height: auto;
+}
+
+.texto {
+    font-size: 24px;
+    color: black;
+}
+
+.hombre_colgado {
+    position: absolute;
+    top: 300px;
+    left: 262px;
+}
+
+.pie {
+    margin: 0px;
+    padding: 0px;
+}
+
+#adivinado {
+    text-align: left;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 10%;
+    display: inline-block;
+
+
+}
+
+#letra>span {
+    display: inline-block;
+    width: 2.4vw;
+    height: 2.56vw;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 2.4vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    border-bottom: solid black;
+    margin-left: 0.64vw;
+    line-height: 2.4vw;
+}
+
+.botones {
+    width: 15%;
+    display: block;
+    margin-top: 40%;
+    padding: 0px;
+    position: absolute;
+    margin-left: 7%;
+    border-radius: 24px;
+}
+
+.boton1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    font-size: 1.5vw;
+    padding: 1.5vw;
+    width: 100%;
+    height: 20%;
+    border-radius: 10px;
+    background-color: rgb(36, 233, 30);
+    border-style: solid;
+    border: none;
+    transition: 0.5s background;
+    cursor: pointer;
+}
+
+.boton1:hover {
+    background-color: rgb(167, 40, 218);
+}
+
+.boton2 {
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5vw;
+    color: black;
+    padding: 1.5vw;
+    width: 100%;
+    height: 20%;
+    margin: 20%;
+    margin-left: 0%;
+    border-radius: 10px;
+    background-color: rgb(11, 121, 155);
+    border-style: solid;
+    border: none;
+    transition: 0.5s background;
+    cursor: pointer;
+}
+
+.boton2:hover {
+    background-color: rgb(240, 15, 53);
+}
+
+
+#teclado {
+    width: 27%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.4vw;
+    overflow: hidden;
+    float: right;
+    margin-top: 1%;
+    margin-right: 3%;
+
+}
+
+#letras>span {
+    padding: 0.4vw;
+    width: 13%;
+    text-align: center;
+    margin: 0.2vw;
+    float: left;
+
+    border-radius: 8px;
+    background-color: rgb(226, 4, 208);
+    box-sizing: border-box;
+    border-style: solid;
+    border: none;
+    transition: 0.5s background;
+    cursor: pointer;
+}
+
+.teclaapretada {
+    cursor: pointer !important;
+    background-color: #22aaca !important;
+}
+
+#letras>span:hover {
+    background-color: rgb(6, 169, 190);
+}
+
+#letras>span.space {
+    width: calc(100% - 4px);
+}
+
+#letras>span.space::after {
+    content: "espacio";
+}
+
+footer {
+    font-size: 20px;
+    margin: 2px;
+    padding: 2px;
+    position: absolute;
+    top: 940px;
+    left: 500px;
+}
+@media only screen and (min-width: 360px) and (max-width: 780px){
+    body{
+        background:rgba(4, 250, 57, 0.493);
+    }
+    .contenedor{
+        min-width: 360px;
+        max-width: 768px;
+    }
+    .hombre_colgado{
+        width: 300px;
+        height: 300px;
+        top: 460px;
+        left: 295px;
+    }
+    #hombre{
+        width: 300px;
+        height: 300px;
+    }
+    .botones{
+        top: 330px;
+        left: 15px;
+        width: 180px;
+        height: 300px;
+    }
+   .pie{
+       align-items:center;
+   }
+}
